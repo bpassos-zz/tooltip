@@ -12,6 +12,6 @@ $(document).ready( function() {
 
     // Remove tooltip when mouseout
     $(".square").mouseout(function() { 
-        $('.tooltip').css('display', 'none');
+        $('.tooltip').hide();
     });
 });
