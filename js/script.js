@@ -1,6 +1,6 @@
 $(document).ready( function() {
 
-	$(".square").mousemove(function(e) { 
+	$(".shape").mousemove(function(e) { 
 		var tooltipSelector = $(this).attr('data-tooltip-content');
 		var $tooltip = $(tooltipSelector);
 
@@ -11,7 +11,7 @@ $(document).ready( function() {
     });
 
     // Remove tooltip when mouseout
-    $(".square").mouseout(function() { 
+    $(".shape").mouseout(function() { 
         $('.tooltip').hide();
     });
 });
